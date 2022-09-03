@@ -1,0 +1,302 @@
+* {
+    margin: 0 auto;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #fff;
+}
+
+/*topbar css*/
+.topbar {
+    background-color: #4cd137;
+    height: 45px;
+    width: 100%;
+}
+
+/*Nab var css*/
+.navbar-brand img {
+    margin: 0px 0px 0px 57px;
+}
+
+.navbar-nav {
+    margin: -52px 0px 0px 523px;
+}
+
+.navbar-nav a {
+    margin: 0px 20px;
+}
+
+.navbar-nav a:hover {
+    margin: 0px 20px;
+    color: #4cd137 !important;
+}
+
+.hader_img {
+    background-image: url(Image/Allimage/haderpic.jpg);
+    height: 210px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+}
+
+.hader_text {
+    height: 210px;
+    width: 100%;
+    background-color: #000;
+    opacity: 0.6;
+}
+
+.breadcrumb {
+    padding: 0px !important;
+    margin: -40px 0px 0px 619px;
+    width: 9%;
+}
+
+.breadcrumb-item a:hover {
+    color: #4cd137 !important;
+}
+
+/*Body section part-01*/
+.body_one {
+
+    margin: 211px 10px 10px 10px;
+    background-color: #ffffff;
+    height: 740px;
+}
+
+.body_text p {
+    text-align: justify;
+}
+
+.profile {
+    margin: 46px -94px;
+    height: 280px;
+    position: absolute;
+}
+
+.cover {
+    height: 297px;
+    width: 45%;
+    position: absolute;
+}
+
+/*Body section part-02*/
+.text {
+    text-align: justify;
+}
+
+/*counter up css*/
+.counterup {
+    background-image: url(Image/Allimage/bodybg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+    position: relative;
+    z-index: -1;
+}
+
+.counterpic {
+    height: 300px;
+    width: 100%;
+    opacity: 0.9;
+}
+
+.counter_row {
+    margin: -225px 10px 10px 32px;
+    z-index: 1;
+    position: absolute;
+    width: 100%;
+}
+
+.number_col {
+    margin: 50px 0px 0px 0px;
+}
+
+.btn {
+    margin: -145px 10px 10px 54px;
+    z-index: 1;
+    position: absolute;
+}
+
+/*slaider card css*/
+.card {
+    border: 1px solid #4cd137;
+    position: relative;
+
+}
+
+/*Subscribe section css*/
+.subscribe {
+    background-color: #4cd137;
+    width: 100%;
+    height: 220px;
+}
+
+.subscribe input {
+    background-color: #4cd137;
+    margin: 2px 511px;
+    padding: 3px 110px 3px 2px;
+}
+
+.email {
+    padding: 5px 10px 5px 10px;
+    background-color: #fff;
+    margin: 0px 0px 0px -513px;
+}
+
+/* footer section css*/
+.footer {
+    height: 400px;
+    margin: -48px 0px 0px 0px;
+    width: 100%;
+}
+
+.footer_one {
+    margin: 10px 10px 10px 10px;
+}
+
+.icon i {
+    font-weight: 400;
+    font-size: 21px;
+    border: 1px solid #fff;
+}
+
+.icon i:hover {
+    color: #4cd137;
+    ;
+}
+
+.facebook {
+    padding: 12px 16px;
+}
+
+.twitter {
+    padding: 10px 10px;
+}
+
+.google {
+    padding: 10px 10px;
+}
+
+.instra {
+    padding: 10px 10px;
+}
+
+.linkdin {
+    padding: 12px 13px;
+}
+
+/*Responsive web code*/
+/* Extra small devices (phones, 480px and down) */
+@media only screen and (max-width: 480px) {
+
+    .topbar {
+        background-color: #4cd137;
+        height: 100px;
+        width: 100%;
+        display: none;
+    }
+
+    /*nav bar*/
+    .navbar-brand img {
+        margin: 0px 0px 0px 86px;
+    }
+
+    .navbar-nav {
+        margin: 1px 0px 0px 114px;
+    }
+
+    /*body section*/
+    .breadcrumb {
+        display: none;
+    }
+
+    .bodyrowone {
+        display: block;
+        position: relative;
+    }
+
+    .body_text {
+        width: 100%;
+    }
+
+    .cover {
+        display: none;
+    }
+
+    .profile {
+        margin: -20px -55px;
+    }
+
+    .text {
+        display: none;
+    }
+
+    /*Counter up section*/
+    .counterup {
+        display: block;
+        width: 100%;
+        height: 499px;
+        position: relative;
+    }
+
+    .counterpic {
+        background-size: auto;
+        height: 774px;
+        position: absolute;
+
+    }
+
+    .counter_row {
+        display: block;
+        margin: -41px 44px;
+    }
+
+    .counterheader {
+        display: none;
+    }
+
+    .countertext {
+        display: none;
+    }
+
+    .contactus {
+        margin: -156px 175px;
+    }
+
+    /*slaider*/
+    .item {
+        width: 100%;
+        margin: 10px 10px;
+    }
+
+    /*subscribe section*/
+    .subscribe input {
+        margin: 10px 82px;
+        padding: 10px 10px;
+    }
+
+    .email {
+        display: none;
+    }
+
+    /*    footer section*/
+    .footerfairstcol {
+        display: block;
+        height: 500px;
+        width: 100%;
+    }
+
+    .footercoltwo {
+
+        display: none;
+    }
+
+    .footertwo {
+        display: none;
+
+    }
+}
